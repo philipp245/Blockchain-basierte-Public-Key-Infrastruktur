@@ -8,12 +8,12 @@ const hre = require("hardhat");
 
 // Haupttestfunktion, die die Interaktion mit den Smart Contracts steuert
 async function main() {
-  // Abruf der Signer: Deployer (Hauptaccount) und Chrome-Account (Test-CA)
+  // Abruf der Signer: Deployer (Hauptaccount) und Chrome-Account (Test-CA) (abgerufen mittels der private keys aus hardhat.config.js)
   const [deployer, chromeAccount] = await hre.ethers.getSigners();
   console.log("Deployer account:", deployer.address); // Ausgabe der Deployer-Adresse (0x3fd62FD4...)
   console.log("Chrome account:", chromeAccount.address); // Ausgabe der Chrome-Account-Adresse (0x03287bb...)
 
-  // Festgelegte Adressen der deployten Contracts auf Sepolia
+  // Festgelegte Adressen der deployten Contracts auf Sepolia (müssen bei neuem deployen ausgetauscht werden)
   const loggingManagerAddr = "0x9873638f6533625e221ddF1F79b2F7B643d0570a";
   const stakeManagerAddr = "0x0A43b809737e85f6fb8980600968b539a0a5d766";
   const trustManagerAddr = "0x6DDc5386e42664A58c3d1903Bafbdd1d0F77733d";
