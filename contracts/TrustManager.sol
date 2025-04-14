@@ -7,7 +7,7 @@ pragma solidity ^0.8.21;
 
 import "./interfaces/ILoggingManager.sol";
 
-// Der TrustManager-Vertrag verwaltet das Vertrauen zwischen CAs und Entitäten im System.
+// Der TrustManager-Contract verwaltet das Vertrauen zwischen CAs und Entitäten im System.
 contract TrustManager {
     // Speichert, ob eine Adresse eine anerkannte CA ist.
     mapping(address => bool) public isCA;
