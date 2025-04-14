@@ -68,7 +68,8 @@ Um das Projekt lokal einzurichten, die Smart Contracts zu kompilieren, Tests aus
     ```
 
 2.  **Abhängigkeiten installieren:**
-
+      Hinweis: Die Abhängigkeiten müssen in einem Anderen Ordner installiert werden.
+    
         ```bash
         # 1. Initialisiert npm und erstellt eine package.json Datei
         npm init -y
@@ -89,6 +90,11 @@ Um das Projekt lokal einzurichten, die Smart Contracts zu kompilieren, Tests aus
         npm install --save-dev dotenv
         ```
    Nach diesen Schritten sollten Sie eine `package.json`-Datei und einen `node_modules`-Ordner im Projektverzeichnis haben, die alle notwendigen Pakete enthalten.
+
+   
+   Achtung: Die beim installieren erstellten Ordner \contracts und \test müssen geleert werden und die Inhalte mit den Dateien aus diesem Repo ausgetauscht werden.
+   \scripts muss ganz neu hinzugefügt werden.
+   
 
 3.  **Hardhat Konfiguration prüfen (`hardhat.config.js`):**
     Die `hardhat.config.js`-Datei im Hauptverzeichnis des Projekts sollte als Basisfunktion erstmal so aussehen:
