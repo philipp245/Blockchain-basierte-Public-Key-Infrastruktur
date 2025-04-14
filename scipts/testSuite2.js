@@ -17,7 +17,7 @@ async function main() {
   console.log("Chrome account:", chromeAccount.address);
   console.log("Edge account:", edgeAccount.address);
 
-  // Adressen der deployten Smart Contracts auf Sepolia
+  // Adressen der deployten Smart Contracts auf Sepolia (müssen nach neuem Deployen ausgetauscht werden)
   const loggingManagerAddr = "0x9873638f6533625e221ddF1F79b2F7B643d0570a";
   const stakeManagerAddr = "0x0A43b809737e85f6fb8980600968b539a0a5d766";
   const trustManagerAddr = "0x6DDc5386e42664A58c3d1903Bafbdd1d0F77733d";
