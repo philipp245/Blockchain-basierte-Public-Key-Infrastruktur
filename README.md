@@ -40,7 +40,7 @@ Das Repository ist wie folgt organisiert:
 ---
 
 ## Verwendete Technologien 
-* **Programmiersprache:** Solidity (^0.8.21) 
+* **Programmiersprache:** Solidity (0.8.21) 
 * **Blockchain-Plattform:** Ethereum (Proof-of-Stake) 
 * **Netzwerk:** Sepolia Testnetzwerk (für Deployment und Tests) 
 * **Entwicklungs-/Test-Framework:** Hardhat (v2.22.19) 
