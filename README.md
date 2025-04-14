@@ -1,7 +1,7 @@
 # Blockchain-basierte Public Key Infrastruktur
 ---
 ## Beschreibung
-Dieses Repository enthält den Code für den Prototypen einer Blockchain-basierten Public Key Infrastructure (PKI), der im Rahmen der Bachelorarbeit "Blockchain-basierte Public Key Infrastructure (PKI) als Ersatz für Zertifizierungsstellen (CAs)" (Hochschule Mannheim, 2025) entwickelt wurde. Ziel des Arbeit ist es, die Machbarkeit der Nutzung von Ethereum Smart Contracts zu demonstrieren, um eine dezentrale, transparente und manipulationssichere Alternative zu traditionellen, CA-basierten PKIs zu schaffen und deren bekannte Schwachstellen (z.B. Single Point of Failure, mangelnde Transparenz, ineffiziente Sperrmechanismen) zu adressieren. Der implementierte Prototyp fokussiert sich auf Kernfunktionen wie die Verwaltung des Zertifikatslebenszyklus (Ausstellung, Validierung, Widerruf) mittels modularer Smart Contracts.
+Dieses Repository enthält den Code für den Prototypen einer Blockchain-basierten Public Key Infrastructure (PKI), der im Rahmen der Bachelorarbeit "Blockchain-basierte Public Key Infrastructure (PKI) als Ersatz für Zertifizierungsstellen (CAs)" (Hochschule Mannheim, 2025) entwickelt wurde. Ziel der Arbeit ist es, die Machbarkeit der Nutzung von Ethereum Smart Contracts zu demonstrieren, um eine dezentrale, transparente und manipulationssichere Alternative zu traditionellen, CA-basierten PKIs zu schaffen und deren bekannte Schwachstellen (z.B. Single Point of Failure, mangelnde Transparenz, ineffiziente Sperrmechanismen) zu adressieren. Der implementierte Prototyp fokussiert sich auf Kernfunktionen wie die Verwaltung des Zertifikatslebenszyklus (Ausstellung, Validierung, Widerruf) mittels modularer Smart Contracts.
 
 --- 
 
