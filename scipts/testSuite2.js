@@ -11,7 +11,7 @@ const hre = require("hardhat");
 async function main() {
   // ### Initialisierung der Wallets und Verträge ###
 
-  // Abruf der Signer für Deployer, Chrome und Edge Wallets (in der hardHat.config.js mittels Private Key hinterlegt)
+  // Abruf der Signer für Deployer, Chrome und Edge Wallets (in der hardhat.config.js mittels Private Key hinterlegt)
   const [deployer, chromeAccount, edgeAccount] = await hre.ethers.getSigners();
   console.log("Deployer account:", deployer.address);
   console.log("Chrome account:", chromeAccount.address);
