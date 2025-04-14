@@ -10,7 +10,7 @@ import "./interfaces/ITrustManager.sol";
 import "./interfaces/IStakeManager.sol";
 import "./interfaces/ILoggingManager.sol";
 
-// Der CertificateCore-Vertrag verwaltet Zertifikate, die von Certificate Authorities (CAs) ausgestellt werden.
+// Der CertificateCore-Contract verwaltet Zertifikate, die von Certificate Authorities (CAs) ausgestellt werden.
 contract CertificateCore {
     // Enum für verschiedene Signaturalgorithmen, die ein Zertifikat verwenden kann.
     enum SignatureAlgorithm { ECDSA, XMSS, SPHINCS, DILITHIUM, FALCON, CUSTOM }
