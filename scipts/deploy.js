@@ -11,8 +11,8 @@ async function main() {
   // 1. Deploy LoggingManager
   const LoggingManager = await hre.ethers.getContractFactory("LoggingManager");
   const loggingManager = await LoggingManager.deploy();
-  await loggingManager.waitForDeployment(); // Ersetze .deployed() durch .waitForDeployment()
-  console.log("LoggingManager deployed to:", loggingManager.target); // .address ist jetzt .target
+  await loggingManager.waitForDeployment(); 
+  console.log("LoggingManager deployed to:", loggingManager.target); 
 
   // 2. Deploy StakeManager
   const StakeManager = await hre.ethers.getContractFactory("StakeManager");
