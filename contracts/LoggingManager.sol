@@ -16,7 +16,7 @@ contract LoggingManager {
 
     // Verknüpft Adressen mit ihren Protokolleinträgen.
     mapping(address => ActionLog[]) public actionLogs;
-    mapping(address => bool) public isAuthorized; // Neue Mapping für autorisierte Adressen
+    mapping(address => bool) public isAuthorized; 
 
     // Event zur Protokollierung einer Aktion.
     event ActionLogged(address indexed actor, bytes32 indexed actionHash, uint256 timestamp);
@@ -27,7 +27,7 @@ contract LoggingManager {
     }
 
     constructor() {
-        isAuthorized[msg.sender] = true; // Deployer ist initial autorisiert
+        isAuthorized[msg.sender] = true; 
     }
 
     // Funktion zum Protokollieren einer Aktion.
