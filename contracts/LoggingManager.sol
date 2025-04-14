@@ -5,7 +5,7 @@
 
 pragma solidity ^0.8.21;
 
-// Der LoggingManager-Vertrag protokolliert Aktionen im System.
+// Der LoggingManager-Contract protokolliert Aktionen im System.
 contract LoggingManager {
     // Struktur für einen Protokolleintrag.
     struct ActionLog {
