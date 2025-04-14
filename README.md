@@ -1,16 +1,10 @@
 # Blockchain-basierte Public Key Infrastruktur
 ---
 ## Kurzbeschreibung
-ToDo
+Dieses Repository enthält den Code für den Prototypen einer Blockchain-basierten Public Key Infrastructure (PKI), der im Rahmen der Bachelorarbeit "Blockchain-basierte Public Key Infrastructure (PKI) als Ersatz für Zertifizierungsstellen (CAs)" (Hochschule Mannheim, 2025) entwickelt wurde. Ziel des Projekts ist es, die Machbarkeit der Nutzung von Ethereum Smart Contracts zu demonstrieren, um eine dezentrale, transparente und manipulationssichere Alternative zu traditionellen, CA-basierten PKIs zu schaffen und deren bekannte Schwachstellen (z.B. Single Point of Failure, mangelnde Transparenz, ineffiziente Sperrmechanismen) zu adressieren. Der implementierte Prototyp fokussiert sich auf Kernfunktionen wie die Verwaltung des Zertifikatslebenszyklus (Ausstellung, Validierung, Widerruf) mittels modularer Smart Contracts.
 
+--- 
 
----
-## Kontext zur Bachelorarbeit
-Dieser Code wurde im Rahmen meiner Bachelorarbeit mit dem Titel:
-**"Blockchain-basierte Public Key Infrastruktur als Ersatz für Zertifizierungsstellen"**
-an der Hochschule Mannheim im Studiengang Cyber Security entwickelt (Abgabe: 14.04.2025).
-
----
 **Rolle des Codes in der Arbeit:**
 Dieser Code implementiert den Prototypen einer Blockchain-basierten Public Key Infrastructure (PKI), der im Rahmen der Bachelorarbeit "Blockchain-basierte Public Key Infrastructure (PKI) als Ersatz für Zertifizierungsstellen (CAs)" konzipiert und entwickelt wurde. Das Ziel ist es, die Machbarkeit der Nutzung von Smart Contracts auf der Ethereum-Blockchain zu demonstrieren, um traditionelle PKI-Funktionen wie Zertifikatsausstellung, -widerruf und -validierung dezentraler, transparenter und manipulationssicherer zu gestalten.
 
@@ -25,7 +19,7 @@ Das System wurde konzipiert, um Schwachstellen traditioneller PKIs wie zentrale 
 
 ---
 
-## Verwendete Technologien / Abhängigkeiten
+## Verwendete Technologien 
 * **Programmiersprache:** Solidity (^0.8.21) 
 * **Blockchain-Plattform:** Ethereum (Proof-of-Stake) 
 * **Netzwerk:** Sepolia Testnetzwerk (für Deployment und Tests) 
@@ -33,9 +27,7 @@ Das System wurde konzipiert, um Schwachstellen traditioneller PKIs wie zentrale 
 * **Test-Bibliotheken:** Mocha, Chai (mit Hardhat verwendet) 
 * **Skripting/Tests:** JavaScript (für Hardhat-Tests/-Skripte)
 ---
-Eine detaillierte Liste der spezifischen -Abhängigkeiten
 
----
 
 ## Installation / Setup
 Um das Projekt lokal einzurichten und die notwendigen Abhängigkeiten zu installieren, folgen Sie diesen Schritten:
