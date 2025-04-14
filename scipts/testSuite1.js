@@ -8,12 +8,12 @@
 const hre = require("hardhat");
 
 async function main() {
-  // Abruf der Signer
+  // Abruf der Signer (werden aus hardhat.congig.js geladen. Hierbei handelt es ich um die Priave keys.)
   const [deployer, chromeAccount] = await hre.ethers.getSigners();
   console.log("Deployer account:", deployer.address);
   console.log("Chrome account:", chromeAccount.address);
 
-  // Deployte Contract-Adressen
+  // Deployte Contract-Adressen (müssen nach neuem Deployen ausgetauscht werden)
   const loggingManagerAddr = "0x9873638f6533625e221ddF1F79b2F7B643d0570a";
   const stakeManagerAddr = "0x0A43b809737e85f6fb8980600968b539a0a5d766";
   const trustManagerAddr = "0x6DDc5386e42664A58c3d1903Bafbdd1d0F77733d";
