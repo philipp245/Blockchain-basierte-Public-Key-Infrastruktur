@@ -8,7 +8,7 @@ pragma solidity ^0.8.21;
 import "./interfaces/ILoggingManager.sol";
 import "./interfaces/IConsensusManager.sol";
 
-// Der StakeManager-Vertrag verwaltet die Einsätze (Stakes) von Nodes im System.
+// Der StakeManager-Contract verwaltet die Einsätze (Stakes) von Nodes im System.
 contract StakeManager {
     // Struktur für Informationen zu einem Staker.
     struct StakeInfo {
