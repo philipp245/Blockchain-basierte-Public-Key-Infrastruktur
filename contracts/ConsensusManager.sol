@@ -8,7 +8,7 @@ pragma solidity ^0.8.21;
 import "./interfaces/IStakeManager.sol";
 import "./interfaces/ILoggingManager.sol";
 
-// Der ConsensusManager-Vertrag verwaltet Abstimmungen und Vorschläge im System.
+// Der ConsensusManager-Contract verwaltet Abstimmungen und Vorschläge im System.
 contract ConsensusManager {
     // Struktur für eine Konsensabstimmung.
     struct ConsensusVote {
